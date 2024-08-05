@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Factory Methods Design Patterns/1.0.0": {
+        "runtime": {
+          "Factory Methods Design Patterns.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Factory Methods Design Patterns/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

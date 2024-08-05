@@ -1,0 +1,14 @@
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\obj\Debug\net6.0\Factory Methods Design Patterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\obj\Debug\net6.0\Factory Methods Design Patterns.AssemblyInfoInputs.cache
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\obj\Debug\net6.0\Factory Methods Design Patterns.AssemblyInfo.cs
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\obj\Debug\net6.0\Factory Methods Design Patterns.csproj.CoreCompileInputs.cache
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\bin\Debug\net6.0\Factory Methods Design Patterns.exe
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\bin\Debug\net6.0\Factory Methods Design Patterns.deps.json
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\bin\Debug\net6.0\Factory Methods Design Patterns.runtimeconfig.json
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\bin\Debug\net6.0\Factory Methods Design Patterns.dll
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\bin\Debug\net6.0\Factory Methods Design Patterns.pdb
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\obj\Debug\net6.0\Factory Methods Design Patterns.dll
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\obj\Debug\net6.0\refint\Factory Methods Design Patterns.dll
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\obj\Debug\net6.0\Factory Methods Design Patterns.pdb
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\obj\Debug\net6.0\Factory Methods Design Patterns.genruntimeconfig.cache
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Factory Methods Design Patterns\obj\Debug\net6.0\ref\Factory Methods Design Patterns.dll
