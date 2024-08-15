@@ -5,27 +5,33 @@ using System;
 
 internal class Program
 {
-    
-
         public static void Main(string[] args)
         {
-           ServiceVehicul serviceVehicul = new ServiceVehicul();
-            serviceVehicul.afisare();
-           //Console.WriteLine("Introduceti care doriti: ");
-           //string type =Console.ReadLine();
-           //Vehicle vh = serviceVehicul.ReturnVehicul(type);
-                    
+          
+           ServiceVehicul vh = new ServiceVehicul();
 
-            Client client = new Client();
+             vh.afisare();
+           
+            Client cl = new Client();
+           cl.BuildVehicle(VehicleType.TwoWheeler);
+            Vehicle vhnew = cl.GetVehicle();
+            vh.InformComplete(vhnew);    //mi sa adauga pe moment si imi afiseaza dar in momentul cand dau run pentru a doua oara nu este adaugat
+            vh.adaugareVehicle(vhnew);
+            vh.afisare();
+           
+           
 
-            client.BuildVehicle(VehicleType.TwoWheeler);
-            client.GetVehicle().AfisareVehicul();
 
-            client.BuildVehicle(VehicleType.ThreeWheeler);
-            client.GetVehicle().AfisareVehicul();
 
-            client.BuildVehicle(VehicleType.FourWheeler);
-            client.GetVehicle().AfisareVehicul();
+
+
+
+
+
+
+
+
+
         }
 
 

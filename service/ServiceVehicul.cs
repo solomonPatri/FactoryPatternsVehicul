@@ -68,8 +68,112 @@ namespace Factory_Methods_Design_Patterns.service
             return null;
         }
 
-        
+        public Vehicle ReturnVehicleById(int id)
+        {
+            for(int i = 0; i < _serviceVeh.Count; i++)
+            {
+                if (_serviceVeh[i].Id == id)
+                {
+                    return _serviceVeh[i];
+                }
 
+            }
+            return null;
+
+
+
+        }
+        public int GeneratenextId()
+        {
+            Random random = new Random();
+            int nrrand = random.Next(15, 100);
+            while (ReturnVehicleById(nrrand)!=null)
+            {
+                nrrand = random.Next(15,100);
+
+            }
+            return nrrand;
+        }
+        public void adaugareVehicle(Vehicle vehicle)
+        {
+            Vehicle add = vehicle;
+            _serviceVeh.Add(add);
+
+        }
+
+        public void InformComplete(Vehicle vehicle)
+        {
+
+            if (vehicle is TwoWheeler)
+            {
+                Console.WriteLine("Introduceti datele necesare completarea datelor" + "+/n");
+                Console.WriteLine("Year: ");
+                int year = int.Parse(Console.ReadLine());
+                Console.WriteLine("Color: ");
+                string color = Console.ReadLine();
+                Console.WriteLine("Propietar: ");
+                string pro = Console.ReadLine();
+
+                Vehicle complevehicle = new TwoWheeler(24, "TwoWheeler", year, color, pro);
+                adaugareVehicle(complevehicle);
+
+            }
+            else
+            {
+                if (vehicle is ThreeWheeler)
+                {
+                    Console.WriteLine("Introduceti datele necesare completarea datelor" + "+/n");
+                    Console.WriteLine("Year: ");
+                    int year = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Model: ");
+                    string model = Console.ReadLine();
+                    Console.WriteLine("Color: ");
+                    string color = Console.ReadLine();
+                    Console.WriteLine("Kilometraj: ");
+                    int kilom = int.Parse(Console.ReadLine());
+
+                    Vehicle infoveeh = new ThreeWheeler(34, "ThreeWheeler", year, model, color, kilom);
+                    adaugareVehicle(infoveeh);
+
+                }
+                else
+                {
+                    if (vehicle is FourWheeler)
+                    {
+                        Console.WriteLine("Introduceti datele necesare completarea datelor" + "+/n");
+                        Console.WriteLine("Year: ");
+                        int year = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Model:");
+                        string model = Console.ReadLine();
+                        Console.WriteLine("Propietar: ");
+                        string propi = Console.ReadLine();
+                        Console.WriteLine("Nr de matricola: ");
+                        string nrmatri = Console.ReadLine();
+
+                        Vehicle newveh = new FourWheeler(44, "FourWheeler", year, model, propi, nrmatri);
+                        adaugareVehicle(newveh);
+                    }
+                    else
+                    {
+                        Console.WriteLine("A intervenit o problema!");
+                    }
+
+
+
+
+
+
+
+
+
+
+
+                }
+
+            }
+        }
+
+       
 
 
 

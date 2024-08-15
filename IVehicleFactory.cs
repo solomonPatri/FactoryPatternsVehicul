@@ -7,8 +7,14 @@ using System.Threading.Tasks;
 namespace Factory_Methods_Design_Patterns
 {
     public interface IVehicleFactory
-    {
+    {   
         Vehicle Build(VehicleType type);
+
+       
+
+       
+
+
 
 
 

@@ -9,15 +9,23 @@ namespace Factory_Methods_Design_Patterns
 {
     public class Client
     {
-
+        private int _id;
         private Vehicle _pVehicle;
 
-        public Client()
+        public Client(Vehicle vehiculul)
         {
-            _pVehicle = null;
+            _pVehicle = vehiculul;
 
         }
+        public Client()
+        {
 
+        }
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
         public void BuildVehicle(VehicleType type)
         {
             IVehicleFactory vf = new VehicleFactory();
@@ -30,7 +38,7 @@ namespace Factory_Methods_Design_Patterns
         {
             return _pVehicle;
         }
-
+        
 
 
 
