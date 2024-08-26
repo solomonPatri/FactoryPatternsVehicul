@@ -12,9 +12,13 @@ namespace Factory_Methods_Design_Patterns
         private int _id;
         private Vehicle _pVehicle;
 
+
+
+
+
         public Client(Vehicle vehiculul)
         {
-            _pVehicle = vehiculul;
+            _pVehicle = null;
 
         }
         public Client()
@@ -26,6 +30,7 @@ namespace Factory_Methods_Design_Patterns
             get { return _id; }
             set { _id = value; }
         }
+        
         public void BuildVehicle(VehicleType type)
         {
             IVehicleFactory vf = new VehicleFactory();
@@ -34,12 +39,14 @@ namespace Factory_Methods_Design_Patterns
 
 
         }
+
+        //Returneaza vehiculul creat (Dar este gol de date)
         public Vehicle GetVehicle()
         {
             return _pVehicle;
         }
         
-
+        
 
 
 

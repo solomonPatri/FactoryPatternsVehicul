@@ -12,10 +12,8 @@ namespace Factory_Methods_Design_Patterns
         ThreeWheeler,
         FourWheeler
 
-        
-    }
 
-    
+    }
 
 
 

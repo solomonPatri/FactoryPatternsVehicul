@@ -10,12 +10,14 @@ namespace Factory_Methods_Design_Patterns.service
     internal class ServiceVehicul
     {
         private List<Vehicle> _serviceVeh;
+        
 
         public ServiceVehicul()
         {
 
             _serviceVeh = new List<Vehicle>();
             this.load();
+           
         }
 
         public void load()
@@ -173,7 +175,7 @@ namespace Factory_Methods_Design_Patterns.service
             }
         }
 
-       
+      
 
 
 
